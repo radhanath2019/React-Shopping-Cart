@@ -19,7 +19,9 @@ class Card extends Component {
                 <img className="card-img-top" src={this.props.details.mediumImage} alt="Card image cap"/>
                 <p className="card-text">Description :{this.props.details.shortDescription}</p>
 
-                <button type="button" className="btn btn-primary">Add</button>
+                <button type="button" className="btn btn-primary">Add</button> &nbsp;
+                <button type="button" className="btn btn-primary">Remove</button>
+
             </div>
             </div>
       </div>
